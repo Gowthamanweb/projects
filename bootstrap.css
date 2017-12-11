@@ -172,11 +172,13 @@ li a{
     .row1.prc{
         padding-left: 2em;
     }
-    
-    
 
 }
-
+@media (min-width: 766px){
+    row1{
+        margin-left: 10em;
+    }
+}
 
 /*paid courses part*/
 
@@ -226,12 +228,12 @@ li a{
 
 @media (max-width:450px){
     .col-sm-6.bgColor1 ,.col-sm-6.bgColor2{
-        margin-left: 7.5em;
+        margin-left: 6em;
+        max-width: 50%;
         
     } 
-    
-    
-}
+ 
+} 
 
 /* contact part */
 .container-fluid.contact{
