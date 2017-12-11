@@ -47,24 +47,6 @@ li a{
     color: beige;
     
 }
-
-/*welcom part */
-.container-fluid.about{
-    background-color:#e0fbfc;
-    min-height: 50em;
-}
-.container.about h3{
-   font-size: 5em;
-   font-weight: 700;
-   text-align: center;
-   font-family:  'Italianno', cursive;
-}
-.para p{
-    font-family: 'Poiret One', cursive;
-    font-size: 1.5em;
-    font-weight: 700;
-    color:black;
-}
 @media (max-width:450px){
     .container.info h1{
         font-size: 7em;
@@ -74,6 +56,32 @@ li a{
     }
     
 }
+
+
+/*welcom part */
+.container-fluid.about{
+    background-image: url(http://thecrayoninitiative.org/wp/uploads/canadian-northern-lights-yellowknife-04-09-2009-1155221-1279x848.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50em;
+    
+}
+.container.about h3{
+   font-size: 5em;
+   font-weight: 700;
+   text-align: center;
+   font-family: 'Italianno', cursive;
+   color:cyan;
+
+}
+.para p{
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    font-weight: 700;
+    color:azure;
+}
+
 
 /* courses */
 .container-fluid.courses{
@@ -87,9 +95,9 @@ li a{
     font-family: 'Port Lligat Slab', serif;
     font-size: 3em;
 }
-.row1{
+.row.cour{
      margin-top: 3em;
-     padding-left:5em;
+     margin-left:2em;
     
 }
 .col-sm-4.fro{
@@ -166,18 +174,11 @@ li a{
     .col-sm-4.res {
         min-height: 35em;
     }
-    .row1{
-        padding-left: 3.5em;
+    .row.cour{
+        margin-left:-1em;
+    
     }    
-    .row1.prc{
-        padding-left: 2em;
-    }
-
-}
-@media (min-width: 766px){
-    row1{
-        margin-left: 10em;
-    }
+    
 }
 
 /*paid courses part*/
@@ -228,8 +229,8 @@ li a{
 
 @media (max-width:450px){
     .col-sm-6.bgColor1 ,.col-sm-6.bgColor2{
-        margin-left: 6em;
-        max-width: 50%;
+        margin-left: 1em;
+        max-width: 90%;
         
     } 
  
@@ -237,7 +238,10 @@ li a{
 
 /* contact part */
 .container-fluid.contact{
-    
+     background-image: url(contact.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
      background-color: aliceblue;
      min-height:40em; 
     
@@ -245,6 +249,7 @@ li a{
 .container.contact h3{
     font-family:   'Barlow Semi Condensed', sans-serif;
     font-size: 4em;
+    color: cadetblue;
     
 }
 .cont{
@@ -254,6 +259,7 @@ li a{
 .container.contact p{
     font-family:  'Barlow Semi Condensed', sans-serif;
     font-size: 2.5em;
+    color: cyan;
 }
 .contact-icon{
     margin-left: -2em;
@@ -274,6 +280,7 @@ li a{
     padding-right: -6em;
    
 }
+
 
 .btn-circle.btn-lg {
     width: 50px;
