@@ -1,6 +1,6 @@
 /* navigation part */
 .container-fluid.head{
-    background-image: url(https://www.cyberworx.in/uploads/21.jpg);
+    background-image: url(header.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -60,7 +60,7 @@ li a{
 
 /*welcom part */
 .container-fluid.about{
-    background-image: url(http://thecrayoninitiative.org/wp/uploads/canadian-northern-lights-yellowknife-04-09-2009-1155221-1279x848.jpg);
+    background-image: url(welcom.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
